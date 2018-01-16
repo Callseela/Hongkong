@@ -4,9 +4,24 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Hongkong</title>
 <link href="../callseela.github.io/background.css" rel="stylesheet" type="text/css" />
+<style>
+#text{height:800px}
+#view{ height:300px; box-shadow:0 0 10px rgba(51,51,51,0.5) ;position:relative}
+#view div{height:280px; width:280px;position:absolute ;top:10px; left:10px;}
+#button{height:280px; width:500px;margin-left:400px;}
+button{height:50px; width:300px; box-shadow:0 0 5px rgba(51,51,51,0.5) ;color:#666}
+</style>
 </head>
 <body>
-<div><img src="file:///C:/Users/zsy/Documents/GitHub/callseela.github.io/paris-top.jpg">
-</div>
+<div id="top"><img src="hongkong-top.JPG"/></div>
+<div id="text"><h1>Hongkong</h1><h3>09/05/2017</h3><hr/>
+<img src="6.jpg" style="height:300px;width:300px; float:left; margin-right:20px">
+<p>I've been to a summer camp in Hong Kong two years before, it is quite special, the aim of this summer camp is to promote the friendship among students form Hong Kong, Taiwan and the mainland. We lived in the dormitory of the City University of Hong Kong. That is so comfortable, we can even see the mansions that belong to some film stars through the window. <br/><br/><br/>The following two pictures are the view from the yard inside the dormitory area and the view from the top of the dormitory buildings.</p><div id="view"><div><img id="placeholder" src="blank.jpg"/></div><div id="button"><br/><br/><br/><button type="button" onclick="document.getElementById('placeholder').src='2.jpg'">Click to see the sky from the yard</button><br/><br/<br/><br/><br/><button type="button" onclick="topp()">Click to see the street from the top</button></div></div></div>
+<div class="bottom"><p>Contact:</br>Mail: shiyue.zhang.95@gmail.com</p></div>
+<script>
+function topp(){document.getElementById('placeholder').src='4.jpg';
+
+}
+</script>
 </body>
 </html>
